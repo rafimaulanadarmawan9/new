@@ -18,8 +18,6 @@ import {
 
 import "./App.css";
 
-
-
 /* =========================================================
    EXPERIENCE
 ========================================================= */
@@ -31,68 +29,75 @@ const experiences = [
     type: "INTERNSHIP",
     title: "DPRD PROV JABAR",
     place: "Jl. Dipenogoro Kota Bandung",
-    "short":
-     "Experience providing IT support for the Gerindra Party Fraction at the West Java Regional House of Representatives (DPRD Provinsi Jabar), strengthening technical troubleshooting, network maintenance, and hardware/software assistance.",
-  "detail": "An IT support internship/role within the Gerindra Party Fraction at the West Java DPRD, focusing on maintaining operational technology, troubleshooting hardware and software issues, supporting digital administration, and ensuring smooth technical workflows for office staff.",
-  "responsibilities": [
-    "Providing technical support and troubleshooting for office computers, printers, and peripherals.",
-    "Assisting with network maintenance, internet connectivity, and basic IT infrastructure support.",
-    "Helping staff with software installation, updates, and digital document management.",
-    "Maintaining accuracy and attention to detail while handling technical support tickets or requests.",
-    "Developing professional communication skills while assisting members and staff with IT-related issues."
+    short:
+      "Experience providing IT support for the Gerindra Party Fraction at the West Java Regional House of Representatives (DPRD Provinsi Jabar), strengthening technical troubleshooting, network maintenance, and hardware/software assistance.",
+    detail:
+      "An IT support internship/role within the Gerindra Party Fraction at the West Java DPRD, focusing on maintaining operational technology, troubleshooting hardware and software issues, supporting digital administration, and ensuring smooth technical workflows for office staff.",
+    responsibilities: [
+      "Providing technical support and troubleshooting for office computers, printers, and peripherals.",
+      "Assisting with network maintenance, internet connectivity, and basic IT infrastructure support.",
+      "Helping staff with software installation, updates, and digital document management.",
+      "Maintaining accuracy and attention to detail while handling technical support tickets or requests.",
+      "Developing professional communication skills while assisting members and staff with IT-related issues.",
     ],
   },
+
   {
     id: "02",
-    year: "2024 — 2025",
+    year: "2025 — 2026",
     type: "ORGANIZATION",
     title: "Ketua Umum",
     place: "Himpunan Mahasiswa Islam Komisariat Teknik UNIKOM",
-    "short": 
-    "Led the organization, following a previous tenure in the Department of Science Studies where I actively organized academic and non-academic discussion forums.",
-  "detail": "Served as General Chairperson of the Himpunan Mahasiswa Islam Komisariat Teknik UNIKOM. Prior to holding the presidency, I served in the Department of Science Studies, where I was highly active in organizing and facilitating academic and non-academic discussion forums, intellectual dialogues, and student capability-building programs.",
-  "responsibilities": [
-    "Leading the overall strategic direction, decision-making, administration, and execution of organizational policies.",
-    "Supervising all division work plans, member development initiatives, and association programs.",
-    "Coordinating internal departments and fostering strong synergy among executive board members.",
-    "Representing the organization in external relations, institutional communications, and official forums.",
-    "Overseeing organizational governance, financial planning, and accountability reports.",
-    "Spearheading and organizing academic and non-academic study forums during my previous tenure in the Science Studies Department."
+    short:
+      "Led the organization, following a previous tenure in the Department of Science Studies where I actively organized academic and non-academic discussion forums.",
+    detail:
+      "Served as General Chairperson of the Himpunan Mahasiswa Islam Komisariat Teknik UNIKOM. Prior to holding the presidency, I served in the Department of Science Studies, where I was highly active in organizing and facilitating academic and non-academic discussion forums, intellectual dialogues, and student capability-building programs.",
+    responsibilities: [
+      "Leading the overall strategic direction, decision-making, administration, and execution of organizational policies.",
+      "Supervising all division work plans, member development initiatives, and association programs.",
+      "Coordinating internal departments and fostering strong synergy among executive board members.",
+      "Representing the organization in external relations, institutional communications, and official forums.",
+      "Overseeing organizational governance, financial planning, and accountability reports.",
+      "Spearheading and organizing academic and non-academic study forums during my previous tenure in the Science Studies Department.",
     ],
   },
+
   {
     id: "03",
     year: "2023 — 2024",
     type: "ORGANIZATION",
     title: "Ketua Fraksi Fakultas Teknik & Anggota Komisi IV",
     place: "Majelis Permusyawaratan Mahasiswa & Dewan Perwakilan Mahasiswa",
-   "short": 
-   "Oversaw supervisory functions aligned with ministry portfolios under the Coordinating Ministry for Political, Legal, and Security Affairs, enforcing regulations and resolving financial irregularities.",
-  "detail": "Served as a student representative and member of Commission IV, taking charge of regulatory compliance, monitoring executive operations equivalent to ministries under the Coordinating Ministry for Political, Legal, and Security Affairs, and proactively investigating and resolving cases of fund misappropriation and policy violations.",
-  "responsibilities": [
-    "Conducting legislative oversight and monitoring compliance with organizational regulations and standard procedures.",
-    "Investigating and resolving issues related to financial irregularities, fund misuse, and budget accountability within supervised entities.",
-    "Enforcing strict adherence to rules, governance standards, and ethical guidelines.",
-    "Reviewing administrative and financial reports to detect discrepancies and ensure transparent fund utilization.",
-    "Coordinating with internal factions and relevant stakeholders to resolve policy violations and disciplinary issues.",
-    "Formulating recommendations and resolutions to address operational and financial discrepancies effectively."
+    short:
+      "Oversaw supervisory functions aligned with ministry portfolios under the Coordinating Ministry for Political, Legal, and Security Affairs, enforcing regulations and resolving financial irregularities.",
+    detail:
+      "Served as a student representative and member of Commission IV, taking charge of regulatory compliance, monitoring executive operations equivalent to ministries under the Coordinating Ministry for Political, Legal, and Security Affairs, and proactively investigating and resolving cases of fund misappropriation and policy violations.",
+    responsibilities: [
+      "Conducting legislative oversight and monitoring compliance with organizational regulations and standard procedures.",
+      "Investigating and resolving issues related to financial irregularities, fund misuse, and budget accountability within supervised entities.",
+      "Enforcing strict adherence to rules, governance standards, and ethical guidelines.",
+      "Reviewing administrative and financial reports to detect discrepancies and ensure transparent fund utilization.",
+      "Coordinating with internal factions and relevant stakeholders to resolve policy violations and disciplinary issues.",
+      "Formulating recommendations and resolutions to address operational and financial discrepancies effectively.",
     ],
   },
+
   {
     id: "04",
     year: "2023 — 2024",
     type: "ORGANIZATION",
     title: "Angkatan Muda KWU",
     place: "Himpunan Mahasiswa Informatika",
-   "short": 
-   "Contributed to entrepreneurial programs and business initiatives as a Junior Member of the Entrepreneurship Division in the Informatics Student Association.",
-  "detail": "Active involvement as a junior member of the entrepreneurship division within the Informatics Student Association, building practical skills in teamwork, creative business project execution, event planning, and small-scale commercial operations.",
-  "responsibilities": [
-    "Assisting with the planning and execution of student entrepreneurship programs and bazaars.",
-    "Supporting product marketing, promotion, and sales operations for association merchandise or ventures.",
-    "Collaborating with team members to brainstorm innovative business ideas and fundraising activities.",
-    "Helping manage inventory, financial records, and operational logistics for entrepreneurial events.",
-    "Developing teamwork, communication, and basic commercial management skills within an active student organization."
+    short:
+      "Contributed to entrepreneurial programs and business initiatives as a Junior Member of the Entrepreneurship Division in the Informatics Student Association.",
+    detail:
+      "Active involvement as a junior member of the entrepreneurship division within the Informatics Student Association, building practical skills in teamwork, creative business project execution, event planning, and small-scale commercial operations.",
+    responsibilities: [
+      "Assisting with the planning and execution of student entrepreneurship programs and bazaars.",
+      "Supporting product marketing, promotion, and sales operations for association merchandise or ventures.",
+      "Collaborating with team members to brainstorm innovative business ideas and fundraising activities.",
+      "Helping manage inventory, financial records, and operational logistics for entrepreneurial events.",
+      "Developing teamwork, communication, and basic commercial management skills within an active student organization.",
     ],
   },
 ];
@@ -104,29 +109,37 @@ const experiences = [
 const digitalProjects = [
   {
     id: "01",
-    category: "WEB / UI UX",
-    title:
-      "Sistem Informasi Administrasi & Kaderisasi HMI",
+    category: "WEB DEVELOPMENT",
+    title: "Portofolio Berbasis React.js",
     description:
-      "Perancangan UI/UX dan konsep sistem informasi administrasi serta kaderisasi berbasis web dengan pendekatan User-Centered Design.",
-    stack: ["UI/UX", "Web", "UCD"],
+      "Pengembangan website portofolio personal yang interaktif dan responsif menggunakan React.js untuk menampilkan profil, proyek, dan keahlian.",
+    stack: ["React.js", "CSS", "Frontend"],
+    image: "/project/portofolioreact.png",
+    link: "",
   },
+
   {
     id: "02",
     category: "FRONTEND",
-    title: "Modern Web Experience",
+    title: "Game Quiz Berbasis WEB",
     description:
-      "Eksplorasi website modern dengan responsive layout, interactive interface, clean typography, dan visual storytelling.",
-    stack: ["React", "CSS", "JavaScript"],
+      "Pengembangan aplikasi game kuis interaktif berbasis web yang dilengkapi dengan sistem skor, alur permainan yang dinamis, dan tata letak responsif.",
+    stack: ["HTML", "CSS", "JavaScript"],
+    image: "/project/gamekomtek.png",
+    link: "https://hmikomtekunikom.github.io",
   },
+
   {
     id: "03",
     category: "UI / UX",
-    title: "Administrative Dashboard",
+    title: "Website Pemesanan Hotel",
     description:
       "Perancangan dashboard yang berfokus pada hierarchy informasi, usability, navigasi, dan pengalaman pengguna.",
-    stack: ["Figma", "UI/UX", "Dashboard"],
+    stack: ["Laravel", "UI/UX", "Dashboard"],
+    image: "",
+    link: "",
   },
+
   {
     id: "04",
     category: "WEB DEVELOPMENT",
@@ -134,7 +147,10 @@ const digitalProjects = [
     description:
       "Konsep website organisasi dengan fokus pada responsive layout, struktur informasi, dan visual identity.",
     stack: ["HTML", "CSS", "JavaScript"],
+    image: "",
+    link: "",
   },
+
   {
     id: "05",
     category: "INTERFACE",
@@ -142,7 +158,10 @@ const digitalProjects = [
     description:
       "Eksplorasi interface untuk kebutuhan administrasi digital dengan struktur navigasi yang sederhana dan modern.",
     stack: ["UI", "UX", "Prototype"],
+    image: "",
+    link: "",
   },
+
   {
     id: "06",
     category: "WEB CONCEPT",
@@ -150,6 +169,8 @@ const digitalProjects = [
     description:
       "Eksplorasi website portfolio kreatif dengan pendekatan minimal, editorial, modern, dan interactive.",
     stack: ["React", "Design", "Frontend"],
+    image: "",
+    link: "",
   },
 ];
 
@@ -165,7 +186,10 @@ const creativeProjects = [
     description:
       "Eksplorasi identitas visual event mulai dari entrance gate, banner, backdrop hingga visual branding.",
     stack: ["Design", "Branding", "Event"],
+     image: "/project/designopc.jpg",
+    link: "https://drive.google.com/drive/folders/1ym6ARE3gSk20I58VMveUa1YlqFi03ssn?usp=sharing",
   },
+
   {
     id: "02",
     category: "PHOTOGRAPHY",
@@ -173,7 +197,10 @@ const creativeProjects = [
     description:
       "Eksplorasi photography dengan fokus terhadap composition, framing, lighting, dan visual storytelling.",
     stack: ["Photo", "Lighting", "Story"],
+    image: "/project/dokmuswil.JPG",
+    link: "https://drive.google.com/drive/folders/1ym6ARE3gSk20I58VMveUa1YlqFi03ssn?usp=sharing",
   },
+
   {
     id: "03",
     category: "VISUAL EDITING",
@@ -181,7 +208,10 @@ const creativeProjects = [
     description:
       "Eksplorasi editing dan manipulasi visual untuk menghasilkan karya yang memiliki karakter dan visual impact.",
     stack: ["Editing", "Retouch", "Visual"],
+     image: "/project/rajawali.png",
+    link: "",
   },
+
   {
     id: "04",
     category: "EVENT DESIGN",
@@ -189,7 +219,10 @@ const creativeProjects = [
     description:
       "Pengembangan konsep visual entrance gate dengan permainan geometry, lighting, typography, material, dan branding.",
     stack: ["3D", "Event", "Visual"],
+    image: "",
+    link: "",
   },
+
   {
     id: "05",
     category: "SOCIAL MEDIA",
@@ -197,7 +230,10 @@ const creativeProjects = [
     description:
       "Eksplorasi visual campaign untuk kebutuhan digital dengan fokus pada hierarchy, consistency, dan visual impact.",
     stack: ["Campaign", "Design", "Content"],
+    image: "",
+    link: "",
   },
+
   {
     id: "06",
     category: "PHOTO EDITING",
@@ -205,6 +241,8 @@ const creativeProjects = [
     description:
       "Eksplorasi pengolahan portrait dengan perhatian pada lighting, tone, composition, dan finishing.",
     stack: ["Portrait", "Editing", "Color"],
+    image: "",
+    link: "",
   },
 ];
 
@@ -212,70 +250,122 @@ const creativeProjects = [
    PROJECT CARD
 ========================================================= */
 
-function ProjectCard({ project, creative = false }) {
+function ProjectCard({
+  project,
+  creative = false,
+}) {
+  const hasImage = Boolean(project.image);
+  const hasLink = Boolean(
+    project.link &&
+      project.link.trim() !== ""
+  );
+
   return (
     <article className="project-card reveal">
+      {/* TOP */}
+
       <div className="project-card-top">
         <span>{project.id}</span>
+
         <ArrowUpRight size={18} />
       </div>
 
+      {/* PROJECT IMAGE */}
+
       <div className="project-visual">
-        {creative ? (
-          <div className="creative-visual">
-            <div className="creative-glow" />
-            <Camera size={55} />
-
-            <span>
-              LIGHT
-              <br />
-              / FRAME
-              <br />
-              / STORY
-            </span>
-          </div>
-        ) : (
+        {hasImage ? (
           <>
-            <div className="screen-glow" />
+            <img
+              src={project.image}
+              alt={project.title}
+              className="project-image"
+              onError={(event) => {
+                event.currentTarget.style.display =
+                  "none";
 
-            <div className="fake-browser">
-              <div className="browser-top">
-                <span />
-                <span />
-                <span />
-              </div>
+                const fallback =
+                  event.currentTarget.parentElement.querySelector(
+                    ".project-image-fallback"
+                  );
 
-              <div className="browser-content">
-                <div className="browser-sidebar">
-                  <i />
-                  <i />
-                  <i />
-                  <i />
-                </div>
+                if (fallback) {
+                  fallback.style.display =
+                    "flex";
+                }
+              }}
+            />
 
-                <div className="browser-main">
-                  <div className="fake-heading" />
+            <div
+              className="project-image-fallback"
+              style={{
+                display: "none",
+              }}
+            >
+              {creative ? (
+                <>
+                  <Camera size={50} />
 
-                  <div className="fake-blocks">
-                    <i />
-                    <i />
-                    <i />
-                  </div>
+                  <span>
+                    LIGHT
+                    <br />
+                    / FRAME
+                    <br />
+                    / STORY
+                  </span>
+                </>
+              ) : (
+                <>
+                  <Code2 size={50} />
 
-                  <div className="fake-chart">
-                    <span />
-                    <span />
-                    <span />
-                    <span />
-                    <span />
-                    <span />
-                  </div>
-                </div>
-              </div>
+                  <span>
+                    DIGITAL
+                    <br />
+                    / WEB
+                    <br />
+                    / INTERFACE
+                  </span>
+                </>
+              )}
             </div>
+
+            <div className="project-image-overlay" />
           </>
+        ) : (
+          <div className="project-image-fallback">
+            {creative ? (
+              <>
+                <div className="creative-glow" />
+
+                <Camera size={55} />
+
+                <span>
+                  LIGHT
+                  <br />
+                  / FRAME
+                  <br />
+                  / STORY
+                </span>
+              </>
+            ) : (
+              <>
+                <div className="creative-glow" />
+
+                <Code2 size={55} />
+
+                <span>
+                  DIGITAL
+                  <br />
+                  / WEB
+                  <br />
+                  / INTERFACE
+                </span>
+              </>
+            )}
+          </div>
         )}
       </div>
+
+      {/* CONTENT */}
 
       <div className="project-card-body">
         <span className="project-category">
@@ -288,15 +378,37 @@ function ProjectCard({ project, creative = false }) {
 
         <div className="tech-list">
           {project.stack.map((item) => (
-            <span key={item}>{item}</span>
+            <span key={item}>
+              {item}
+            </span>
           ))}
         </div>
       </div>
 
-      <button className="project-view">
-        View Concept
-        <ExternalLink size={15} />
-      </button>
+      {/* LINK */}
+
+      {hasLink ? (
+        <a
+          className="project-view"
+          href={project.link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>
+            View Project
+          </span>
+
+          <ExternalLink
+            size={15}
+          />
+        </a>
+      ) : (
+        <div className="project-view project-view-disabled">
+          <span>
+            Project Link Soon
+          </span>
+        </div>
+      )}
     </article>
   );
 }
@@ -306,18 +418,35 @@ function ProjectCard({ project, creative = false }) {
 ========================================================= */
 
 function App() {
-  const [activeTab, setActiveTab] = useState("digital");
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [nightMode, setNightMode] = useState(false);
+  const [
+    activeTab,
+    setActiveTab,
+  ] = useState("digital");
 
-  const [currentView, setCurrentView] =
-    useState("home");
+  const [
+    menuOpen,
+    setMenuOpen,
+  ] = useState(false);
 
-  const [selectedExperience, setSelectedExperience] =
-    useState(null);
+  const [
+    nightMode,
+    setNightMode,
+  ] = useState(false);
 
-  const [scrollProgress, setScrollProgress] =
-    useState(0);
+  const [
+    currentView,
+    setCurrentView,
+  ] = useState("home");
+
+  const [
+    selectedExperience,
+    setSelectedExperience,
+  ] = useState(null);
+
+  const [
+    scrollProgress,
+    setScrollProgress,
+  ] = useState(0);
 
   /* =======================================================
      SCROLL
@@ -325,18 +454,25 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.scrollY;
+      const scrollTop =
+        window.scrollY;
 
       const documentHeight =
-        document.documentElement.scrollHeight -
-        document.documentElement.clientHeight;
+        document.documentElement
+          .scrollHeight -
+        document.documentElement
+          .clientHeight;
 
       const progress =
         documentHeight > 0
-          ? (scrollTop / documentHeight) * 100
+          ? (scrollTop /
+              documentHeight) *
+            100
           : 0;
 
-      setScrollProgress(progress);
+      setScrollProgress(
+        progress
+      );
     };
 
     window.addEventListener(
@@ -358,7 +494,9 @@ function App() {
 
   useEffect(() => {
     const elements =
-      document.querySelectorAll(".reveal");
+      document.querySelectorAll(
+        ".reveal"
+      );
 
     if (!elements.length) {
       return;
@@ -367,17 +505,21 @@ function App() {
     const observer =
       new IntersectionObserver(
         (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add(
-                "reveal-visible"
-              );
+          entries.forEach(
+            (entry) => {
+              if (
+                entry.isIntersecting
+              ) {
+                entry.target.classList.add(
+                  "reveal-visible"
+                );
 
-              observer.unobserve(
-                entry.target
-              );
+                observer.unobserve(
+                  entry.target
+                );
+              }
             }
-          });
+          );
         },
         {
           threshold: 0.12,
@@ -386,14 +528,17 @@ function App() {
         }
       );
 
-    elements.forEach((element) => {
-      observer.observe(element);
-    });
+    elements.forEach(
+      (element) =>
+        observer.observe(element)
+    );
 
-    return () => {
+    return () =>
       observer.disconnect();
-    };
-  }, [currentView, activeTab]);
+  }, [
+    currentView,
+    activeTab,
+  ]);
 
   /* =======================================================
      NAVIGATION
@@ -428,8 +573,13 @@ function App() {
     }, 50);
   };
 
-  const openExperience = (experience) => {
-    setSelectedExperience(experience);
+  const openExperience = (
+    experience
+  ) => {
+    setSelectedExperience(
+      experience
+    );
+
     setCurrentView(
       "experience-detail"
     );
@@ -440,7 +590,9 @@ function App() {
     });
   };
 
-  const openArchive = (type) => {
+  const openArchive = (
+    type
+  ) => {
     setCurrentView(
       type === "digital"
         ? "digital-archive"
@@ -462,118 +614,158 @@ function App() {
         top: 0,
         behavior: "smooth",
       });
-    }, 20);
+    }, 30);
   };
 
   /* =======================================================
      EXPERIENCE DETAIL
   ======================================================= */
 
-  const renderExperienceDetail = () => {
-    if (!selectedExperience) {
-      return null;
-    }
+  const renderExperienceDetail =
+    () => {
+      if (
+        !selectedExperience
+      ) {
+        return null;
+      }
 
-    return (
-      <main className="detail-page">
-        <div className="detail-container">
-          <button
-            className="back-orbit"
-            onClick={backHome}
-          >
-            ← BACK TO UNIVERSE
-          </button>
+      return (
+        <main className="detail-page">
+          <div className="detail-container">
+            <button
+              className="back-orbit"
+              onClick={backHome}
+              type="button"
+            >
+              ← BACK TO UNIVERSE
+            </button>
 
-          <div className="detail-hero reveal">
-            <span className="mini-label">
-              {selectedExperience.type}
-            </span>
-
-            <div className="detail-number">
-              {selectedExperience.id}
-            </div>
-
-            <h1>
-              {selectedExperience.title}
-              <br />
-              <em>
-                {selectedExperience.year}
-              </em>
-            </h1>
-
-            <p className="detail-place">
-              {selectedExperience.place}
-            </p>
-          </div>
-
-          <div className="detail-grid">
-            <div className="detail-main reveal">
-              <span className="detail-label">
-                OVERVIEW
+            <div className="detail-hero reveal">
+              <span className="mini-label">
+                {
+                  selectedExperience.type
+                }
               </span>
 
-              <h2>
-                Experience that shaped how
-                I work.
-              </h2>
+              <div className="detail-number">
+                {
+                  selectedExperience.id
+                }
+              </div>
 
-              <p>
-                {selectedExperience.detail}
+              <h1>
+                {
+                  selectedExperience.title
+                }
+
+                <br />
+
+                <em>
+                  {
+                    selectedExperience.year
+                  }
+                </em>
+              </h1>
+
+              <p className="detail-place">
+                {
+                  selectedExperience.place
+                }
               </p>
             </div>
 
-            <div className="detail-side reveal">
-              <span className="detail-label">
-                KEY RESPONSIBILITIES
-              </span>
+            <div className="detail-grid">
+              <div className="detail-main reveal">
+                <span className="detail-label">
+                  OVERVIEW
+                </span>
 
-              <div className="responsibility-list">
-                {selectedExperience.responsibilities.map(
-                  (item, index) => (
-                    <div
-                      className="responsibility"
-                      key={item}
-                    >
-                      <span>
-                        {String(
-                          index + 1
-                        ).padStart(2, "0")}
-                      </span>
+                <h2>
+                  Experience that
+                  shaped how I work.
+                </h2>
 
-                      <p>{item}</p>
-                    </div>
-                  )
-                )}
+                <p>
+                  {
+                    selectedExperience.detail
+                  }
+                </p>
+              </div>
+
+              <div className="detail-side reveal">
+                <span className="detail-label">
+                  KEY RESPONSIBILITIES
+                </span>
+
+                <div className="responsibility-list">
+                  {selectedExperience.responsibilities.map(
+                    (
+                      item,
+                      index
+                    ) => (
+                      <div
+                        className="responsibility"
+                        key={item}
+                      >
+                        <span>
+                          {String(
+                            index +
+                              1
+                          ).padStart(
+                            2,
+                            "0"
+                          )}
+                        </span>
+
+                        <p>
+                          {item}
+                        </p>
+                      </div>
+                    )
+                  )}
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="detail-footer reveal">
-            <div>
-              <span>EXPERIENCE</span>
+            <div className="detail-footer reveal">
+              <div>
+                <span>
+                  EXPERIENCE
+                </span>
 
-              <strong>
-                {selectedExperience.year}
-              </strong>
+                <strong>
+                  {
+                    selectedExperience.year
+                  }
+                </strong>
+              </div>
+
+              <div>
+                <span>
+                  FIELD
+                </span>
+
+                <strong>
+                  {
+                    selectedExperience.type
+                  }
+                </strong>
+              </div>
+
+              <button
+                onClick={backHome}
+                type="button"
+              >
+                BACK TO EXPERIENCE
+                <ArrowUpRight
+                  size={16}
+                />
+              </button>
             </div>
-
-            <div>
-              <span>FIELD</span>
-
-              <strong>
-                {selectedExperience.type}
-              </strong>
-            </div>
-
-            <button onClick={backHome}>
-              BACK TO EXPERIENCE
-              <ArrowUpRight size={16} />
-            </button>
           </div>
-        </div>
-      </main>
-    );
-  };
+        </main>
+      );
+    };
 
   /* =======================================================
      ARCHIVE
@@ -592,6 +784,7 @@ function App() {
           <button
             className="back-orbit"
             onClick={backHome}
+            type="button"
           >
             ← BACK TO UNIVERSE
           </button>
@@ -606,13 +799,17 @@ function App() {
                 <>
                   EDITING &
                   <br />
-                  <em>PHOTOGRAPHY.</em>
+                  <em>
+                    PHOTOGRAPHY.
+                  </em>
                 </>
               ) : (
                 <>
                   INFORMATICS &
                   <br />
-                  <em>WEB.</em>
+                  <em>
+                    WEB.
+                  </em>
                 </>
               )}
             </h1>
@@ -627,32 +824,63 @@ function App() {
           <div className="archive-filter">
             <div>
               <span>ARCHIVE</span>
-              <strong>{items.length}</strong>
+
+              <strong>
+                {String(
+                  items.length
+                ).padStart(2, "0")}
+              </strong>
             </div>
 
             <div>
               <span>MODE</span>
+
               <strong>
                 {creative
                   ? "CREATIVE"
                   : "DIGITAL"}
               </strong>
             </div>
+
+            <div>
+              <span>STATUS</span>
+
+              <strong className="archive-live">
+                ACTIVE
+              </strong>
+            </div>
           </div>
 
           <div className="archive-grid">
-            {items.map((project) => (
-              <ProjectCard
-                key={project.id}
-                project={project}
-                creative={creative}
-              />
-            ))}
+            {items.map(
+              (
+                project,
+                index
+              ) => (
+                <ProjectCard
+                  key={`${creative ? "creative" : "digital"}-${project.id}-${index}`}
+                  project={
+                    project
+                  }
+                  creative={
+                    creative
+                  }
+                />
+              )
+            )}
           </div>
 
           <div className="archive-back reveal">
-            <button onClick={backHome}>
-              <ArrowUpRight size={17} />
+            <button
+              onClick={
+                backHome
+              }
+              type="button"
+            >
+              <ArrowUpRight
+                size={17}
+              />
+
               BACK TO MAIN PORTFOLIO
             </button>
           </div>
@@ -668,7 +896,7 @@ function App() {
   const renderHome = () => {
     return (
       <main>
-        {/* ================= HERO ================= */}
+        {/* HERO */}
 
         <section
           id="home"
@@ -696,7 +924,9 @@ function App() {
                 <h1>
                   CREATIVE
                   <br />
-                  <span>UNIVERSE</span>
+                  <span>
+                    UNIVERSE
+                  </span>
                   <b>.</b>
                 </h1>
               </div>
@@ -706,9 +936,12 @@ function App() {
                 <strong>
                   Rafi Maulana Darmawan
                 </strong>{" "}
-                — a student exploring the
-                intersection of{" "}
-                <span>technology</span>,{" "}
+                — a student exploring
+                the intersection of{" "}
+                <span>
+                  technology
+                </span>
+                ,{" "}
                 <span>design</span>, and{" "}
                 <span>
                   visual creativity
@@ -724,9 +957,12 @@ function App() {
                       "projects"
                     )
                   }
+                  type="button"
                 >
                   Explore Projects
-                  <ArrowUpRight size={18} />
+                  <ArrowUpRight
+                    size={18}
+                  />
                 </button>
 
                 <a
@@ -734,26 +970,39 @@ function App() {
                   href="/cv-rafi-maulana-darmawan.pdf"
                   download
                 >
-                  <Download size={17} />
+                  <Download
+                    size={17}
+                  />
                   Download CV
                 </a>
               </div>
 
               <div className="hero-meta">
                 <div>
-                  <span>BASED IN</span>
-                  <strong>INDONESIA</strong>
+                  <span>
+                    BASED IN
+                  </span>
+
+                  <strong>
+                    INDONESIA
+                  </strong>
                 </div>
 
                 <div>
-                  <span>FOCUS</span>
+                  <span>
+                    FOCUS
+                  </span>
+
                   <strong>
                     TECH × CREATIVE
                   </strong>
                 </div>
 
                 <div>
-                  <span>STATUS</span>
+                  <span>
+                    STATUS
+                  </span>
+
                   <strong className="available">
                     STUDENT
                   </strong>
@@ -761,7 +1010,7 @@ function App() {
               </div>
             </div>
 
-            {/* ================= 3D PROFILE ================= */}
+            {/* 3D PROFILE */}
 
             <div className="hero-object reveal">
               <div className="orbit orbit-one" />
@@ -776,7 +1025,9 @@ function App() {
                     PROFILE_001
                   </span>
 
-                  <span>ONLINE</span>
+                  <span>
+                    ONLINE
+                  </span>
                 </div>
 
                 <div className="profile-image-container">
@@ -784,20 +1035,35 @@ function App() {
                     src="/profile.jpg"
                     alt="Rafi Maulana Darmawan"
                     className="profile-image"
-                    onError={(event) => {
+                    onError={(
+                      event
+                    ) => {
                       event.currentTarget.style.display =
                         "none";
 
-                      event.currentTarget.parentElement.classList.add(
-                        "image-fallback"
-                      );
+                      const fallback =
+                        event.currentTarget.parentElement.querySelector(
+                          ".profile-fallback-content"
+                        );
+
+                      if (
+                        fallback
+                      ) {
+                        fallback.classList.add(
+                          "show-profile-fallback"
+                        );
+                      }
                     }}
                   />
 
                   <div className="profile-fallback-content">
-                    <span></span>
+                    <span>
+                     
+                    </span>
 
-                    <strong></strong>
+                    <strong>
+                      
+                    </strong>
 
                     <small>
                       
@@ -807,7 +1073,9 @@ function App() {
 
                 <div className="profile-footer">
                   <div>
-                    <span>SUBJECT</span>
+                    <span>
+                      SUBJECT
+                    </span>
 
                     <strong>
                       RAFI
@@ -815,7 +1083,9 @@ function App() {
                   </div>
 
                   <div>
-                    <span>LEVEL</span>
+                    <span>
+                      LEVEL
+                    </span>
 
                     <strong>
                       CREATIVE
@@ -825,22 +1095,30 @@ function App() {
               </div>
 
               <div className="floating-orbit-card card-top">
-                <Sparkles size={14} />
+                <Sparkles
+                  size={14}
+                />
 
                 <div>
                   <small>
                     CREATIVE MODE
                   </small>
 
-                  <strong>ON</strong>
+                  <strong>
+                    ON
+                  </strong>
                 </div>
               </div>
 
               <div className="floating-orbit-card card-bottom">
-                <Code2 size={15} />
+                <Code2
+                  size={15}
+                />
 
                 <div>
-                  <small>BUILDING</small>
+                  <small>
+                    BUILDING
+                  </small>
 
                   <strong>
                     DIGITAL WORLDS
@@ -863,64 +1141,77 @@ function App() {
           <button
             className="hero-scroll"
             onClick={() =>
-              goToSection("about")
+              goToSection(
+                "about"
+              )
             }
+            type="button"
           >
             <span>
               SCROLL TO EXPLORE
             </span>
 
-            <ChevronDown size={15} />
+            <ChevronDown
+              size={15}
+            />
           </button>
         </section>
 
-        {/* ================= MARQUEE ================= */}
+        {/* MARQUEE */}
 
         <section className="cosmic-marquee">
           <div className="marquee-inner">
             <span>
               WEB DEVELOPMENT
             </span>
+
             <i>✦</i>
 
             <span>
               UI / UX DESIGN
             </span>
+
             <i>✦</i>
 
             <span>
               PHOTOGRAPHY
             </span>
+
             <i>✦</i>
 
             <span>
               CREATIVE EDITING
             </span>
+
             <i>✦</i>
 
             <span>
               VISUAL STORYTELLING
             </span>
+
             <i>✦</i>
 
             <span>
               WEB DEVELOPMENT
             </span>
+
             <i>✦</i>
 
             <span>
               UI / UX DESIGN
             </span>
+
             <i>✦</i>
 
             <span>
               PHOTOGRAPHY
             </span>
+
             <i>✦</i>
           </div>
         </section>
 
-        {/* ================= ABOUT ================= */}
+        {/* ABOUT */}
 
         <section
           id="about"
@@ -942,15 +1233,21 @@ function App() {
 
           <div className="about-layout">
             <div className="big-statement reveal">
-              <span>NOT JUST</span>
-              <em>CODE.</em>
+              <span>
+                NOT JUST
+              </span>
+
+              <em>
+                CODE.
+              </em>
             </div>
 
             <div className="about-copy reveal">
               <p className="highlight-copy">
-                I enjoy turning ideas into digital
-                and visual experiences that feel
-                purposeful, modern, and memorable.
+                I enjoy turning ideas into
+                digital and visual experiences
+                that feel purposeful, modern,
+                and memorable.
               </p>
 
               <p>
@@ -971,7 +1268,10 @@ function App() {
 
               <div className="stat-grid">
                 <div className="stat-card">
-                  <strong>RPL</strong>
+                  <strong>
+                    RPL
+                  </strong>
+
                   <span>
                     SOFTWARE ENGINEERING
                   </span>
@@ -981,13 +1281,17 @@ function App() {
                   <strong>
                     UNIKOM
                   </strong>
+
                   <span>
                     CURRENTLY STUDYING
                   </span>
                 </div>
 
                 <div className="stat-card">
-                  <strong>∞</strong>
+                  <strong>
+                    ∞
+                  </strong>
+
                   <span>
                     CURIOSITY
                   </span>
@@ -997,7 +1301,7 @@ function App() {
           </div>
         </section>
 
-        {/* ================= EXPERIENCE ================= */}
+        {/* EXPERIENCE */}
 
         <section
           id="experience"
@@ -1019,35 +1323,50 @@ function App() {
 
           <div className="timeline">
             {experiences.map(
-              (experience, index) => (
+              (
+                experience,
+                index
+              ) => (
                 <article
                   className="timeline-item reveal"
-                  key={experience.id}
+                  key={
+                    experience.id
+                  }
                   style={{
                     transitionDelay: `${index * 80}ms`,
                   }}
                 >
                   <div className="timeline-date">
-                    {experience.year}
+                    {
+                      experience.year
+                    }
                   </div>
 
                   <div className="timeline-dot" />
 
                   <div className="timeline-content">
                     <span>
-                      {experience.type}
+                      {
+                        experience.type
+                      }
                     </span>
 
                     <h3>
-                      {experience.title}
+                      {
+                        experience.title
+                      }
                     </h3>
 
                     <h4>
-                      {experience.place}
+                      {
+                        experience.place
+                      }
                     </h4>
 
                     <p>
-                      {experience.short}
+                      {
+                        experience.short
+                      }
                     </p>
 
                     <button
@@ -1057,8 +1376,10 @@ function App() {
                           experience
                         )
                       }
+                      type="button"
                     >
                       Lihat Selengkapnya
+
                       <ArrowUpRight
                         size={15}
                       />
@@ -1072,7 +1393,7 @@ function App() {
           </div>
         </section>
 
-        {/* ================= EDUCATION ================= */}
+        {/* EDUCATION */}
 
         <section
           id="education"
@@ -1093,8 +1414,6 @@ function App() {
           </div>
 
           <div className="education-list">
-            {/* SMK */}
-
             <article className="education-item reveal">
               <div className="education-number">
                 01
@@ -1106,7 +1425,8 @@ function App() {
                 </span>
 
                 <h2>
-                  SMK Bakti Nusantara 666
+                  SMK Bakti Nusantara
+                  666
                 </h2>
 
                 <p className="education-major">
@@ -1118,11 +1438,7 @@ function App() {
                 </p>
 
                 <p className="education-description">
-                  Vocational education with a
-                  focus on software development,
-                  programming, information
-                  technology, and digital
-                  problem solving.
+                  Saya adalah lulusan pendidikan kejuruan dengan fokus pada software development, programming, dan pemecahan masalah digital (Nilai Akhir: 79,99). Saya memiliki pengalaman terjun langsung ke dunia industri melalui Praktik Kerja Industri di PT Pos Indonesia (Mail Processing Center) dengan predikat Sangat Memuaskan (85,00). Selain itu, keterampilan teknis saya telah teruji dan dinyatakan Sangat Kompeten (87,00) melalui Uji Kompetensi Keahlian praktik bersama PT Basicteknologi Intersolusi Tersinergi.
                 </p>
               </div>
 
@@ -1131,15 +1447,15 @@ function App() {
                   FINAL GRADE
                 </span>
 
-                <strong>—</strong>
+                <strong>
+                  79.99
+                </strong>
 
                 <small>
-                  To be filled later
+                  Memuaskan
                 </small>
               </div>
             </article>
-
-            {/* UNIKOM */}
 
             <article className="education-item education-current reveal">
               <div className="education-number">
@@ -1166,12 +1482,11 @@ function App() {
                 </p>
 
                 <p className="education-description">
-                  Currently pursuing higher
-                  education while developing
-                  interests and skills in
-                  technology, software development,
-                  digital products, design, and
-                  creative projects.
+                  Masih aktif berkuliah di UNIKOM
+                  sambil mengembangkan kemampuan
+                  dalam teknologi, software
+                  development, digital product,
+                  UI/UX, dan creative projects.
                 </p>
               </div>
 
@@ -1185,14 +1500,14 @@ function App() {
                 </strong>
 
                 <small>
-                  Final grade not available yet
+                  Final IPK belum tersedia
                 </small>
               </div>
             </article>
           </div>
         </section>
 
-        {/* ================= PROJECTS ================= */}
+        {/* PROJECTS */}
 
         <section
           id="projects"
@@ -1221,7 +1536,6 @@ function App() {
               <h2>
                 FROM CODE
                 <br />
-
                 <em>
                   TO CREATIVE.
                 </em>
@@ -1238,65 +1552,97 @@ function App() {
           <div className="project-switcher reveal">
             <button
               className={
-                activeTab === "digital"
+                activeTab ===
+                "digital"
                   ? "active"
                   : ""
               }
               onClick={() =>
-                setActiveTab("digital")
+                setActiveTab(
+                  "digital"
+                )
               }
+              type="button"
             >
-              <Code2 size={17} />
+              <Code2
+                size={17}
+              />
 
               Informatics & Web
             </button>
 
             <button
               className={
-                activeTab === "creative"
+                activeTab ===
+                "creative"
                   ? "active"
                   : ""
               }
               onClick={() =>
-                setActiveTab("creative")
+                setActiveTab(
+                  "creative"
+                )
               }
+              type="button"
             >
-              <Camera size={17} />
+              <Camera
+                size={17}
+              />
 
               Editing & Photography
             </button>
           </div>
 
           <div className="project-grid">
-            {(activeTab === "digital"
-              ? digitalProjects.slice(0, 3)
-              : creativeProjects.slice(0, 3)
-            ).map((project) => (
-              <ProjectCard
-                key={project.id}
-                project={project}
-                creative={
-                  activeTab === "creative"
-                }
-              />
-            ))}
+            {(activeTab ===
+            "digital"
+              ? digitalProjects.slice(
+                  0,
+                  3
+                )
+              : creativeProjects.slice(
+                  0,
+                  3
+                )
+            ).map(
+              (
+                project,
+                index
+              ) => (
+                <ProjectCard
+                  key={`${activeTab}-${project.id}-${index}`}
+                  project={
+                    project
+                  }
+                  creative={
+                    activeTab ===
+                    "creative"
+                  }
+                />
+              )
+            )}
           </div>
 
           <div className="archive-button-wrap reveal">
             <button
               className="archive-button"
               onClick={() =>
-                openArchive(activeTab)
+                openArchive(
+                  activeTab
+                )
               }
+              type="button"
             >
               Lihat Arsip Lain
 
-              <ArrowUpRight size={17} />
+              <ArrowUpRight
+                size={17}
+              />
             </button>
           </div>
         </section>
 
-        {/* ================= SKILLS ================= */}
+        {/* SKILLS */}
 
         <section className="content-section section-space">
           <div className="section-head reveal">
@@ -1319,18 +1665,30 @@ function App() {
                 <Code2 />
               </div>
 
-              <span>DIGITAL</span>
+              <span>
+                DIGITAL
+              </span>
 
               <h3>
                 Technology
               </h3>
 
               <div className="skill-tags">
-                <i>HTML</i>
-                <i>CSS</i>
-                <i>JavaScript</i>
-                <i>React.js</i>
-                <i>UI/UX</i>
+                <i>
+                  HTML
+                </i>
+                <i>
+                  CSS
+                </i>
+                <i>
+                  JavaScript
+                </i>
+                <i>
+                  React.js
+                </i>
+                <i>
+                  UI/UX
+                </i>
                 <i>
                   Responsive Design
                 </i>
@@ -1342,18 +1700,30 @@ function App() {
                 <Palette />
               </div>
 
-              <span>CREATIVE</span>
+              <span>
+                CREATIVE
+              </span>
 
               <h3>
                 Visual Design
               </h3>
 
               <div className="skill-tags">
-                <i>Graphic Design</i>
-                <i>Photo Editing</i>
-                <i>Branding</i>
-                <i>Visual Design</i>
-                <i>Event Design</i>
+                <i>
+                  Graphic Design
+                </i>
+                <i>
+                  Photo Editing
+                </i>
+                <i>
+                  Branding
+                </i>
+                <i>
+                  Visual Design
+                </i>
+                <i>
+                  Event Design
+                </i>
               </div>
             </div>
 
@@ -1362,17 +1732,27 @@ function App() {
                 <Camera />
               </div>
 
-              <span>PERSONAL</span>
+              <span>
+                PERSONAL
+              </span>
 
               <h3>
                 Human Skills
               </h3>
 
               <div className="skill-tags">
-                <i>Leadership</i>
-                <i>Communication</i>
-                <i>Teamwork</i>
-                <i>Problem Solving</i>
+                <i>
+                  Leadership
+                </i>
+                <i>
+                  Communication
+                </i>
+                <i>
+                  Teamwork
+                </i>
+                <i>
+                  Problem Solving
+                </i>
                 <i>
                   Attention to Detail
                 </i>
@@ -1381,7 +1761,7 @@ function App() {
           </div>
         </section>
 
-        {/* ================= CONTACT ================= */}
+        {/* CONTACT */}
 
         <section
           id="contact"
@@ -1404,31 +1784,41 @@ function App() {
 
             <p>
               Have a project, opportunity,
-              collaboration, or simply want to
-              say hello? Open the channel.
+              collaboration, or simply want
+              to say hello? Open the channel.
             </p>
 
             <a
               href="mailto:rafimaulanadarmawan09@gmail.com"
               className="email-link"
             >
-              <Mail size={19} />
+              <Mail
+                size={19}
+              />
 
               rafimaulanadarmawan09@gmail.com
 
-              <ArrowUpRight size={19} />
+              <ArrowUpRight
+                size={19}
+              />
             </a>
 
             <div className="contact-info-grid">
               <div>
-                <MapPin size={16} />
+                <MapPin
+                  size={16}
+                />
+
                 <span>
-                  Bandung,Jawa Barat
+                  Bandung, Jawa Barat
                 </span>
               </div>
 
               <div>
-                <Sparkles size={16} />
+                <Sparkles
+                  size={16}
+                />
+
                 <span>
                   CREATIVE / DIGITAL
                 </span>
@@ -1493,11 +1883,10 @@ function App() {
       <div
         className="scroll-progress"
         style={{
-          width: `${scrollProgress}%`,
+          width:
+            `${scrollProgress}%`,
         }}
       />
-
-      {/* SPACE BACKGROUND */}
 
       <div className="space-background">
         <div className="stars stars-one" />
@@ -1516,8 +1905,11 @@ function App() {
         <div className="nav-container">
           <button
             className="brand"
-            onClick={goHome}
-            aria-label="Go to home"
+            onClick={
+              goHome
+            }
+            type="button"
+            aria-label="Go home"
           >
             <span className="brand-symbol">
               R
@@ -1537,48 +1929,66 @@ function App() {
           >
             <button
               onClick={() =>
-                goToSection("home")
+                goToSection(
+                  "home"
+                )
               }
+              type="button"
             >
               Home
             </button>
 
             <button
               onClick={() =>
-                goToSection("about")
+                goToSection(
+                  "about"
+                )
               }
+              type="button"
             >
               About
             </button>
 
             <button
               onClick={() =>
-                goToSection("experience")
+                goToSection(
+                  "experience"
+                )
               }
+              type="button"
             >
               Experience
             </button>
 
             <button
               onClick={() =>
-                goToSection("education")
+                goToSection(
+                  "education"
+                )
               }
+              type="button"
             >
               Education
             </button>
 
             <button
               onClick={() =>
-                goToSection("projects")
+                goToSection(
+                  "projects"
+                )
               }
+              type="button"
             >
               Projects
             </button>
 
             <button
               onClick={() =>
-                goToSection("contact")
+                goToSection(
+                  "contact"
+                )
               }
+              type="button"
             >
               Contact
             </button>
@@ -1592,12 +2002,17 @@ function App() {
                   !nightMode
                 )
               }
+              type="button"
               aria-label="Toggle visual mode"
             >
               {nightMode ? (
-                <Sun size={16} />
+                <Sun
+                  size={16}
+                />
               ) : (
-                <Moon size={16} />
+                <Moon
+                  size={16}
+                />
               )}
             </button>
 
@@ -1608,9 +2023,13 @@ function App() {
                   "contact"
                 )
               }
+              type="button"
             >
               Let's Talk
-              <ArrowUpRight size={15} />
+
+              <ArrowUpRight
+                size={15}
+              />
             </button>
 
             <button
@@ -1620,6 +2039,7 @@ function App() {
                   !menuOpen
                 )
               }
+              type="button"
               aria-label="Toggle navigation"
             >
               {menuOpen ? (
@@ -1634,7 +2054,8 @@ function App() {
 
       {/* PAGE */}
 
-      {currentView === "home" &&
+      {currentView ===
+        "home" &&
         renderHome()}
 
       {currentView ===
@@ -1643,50 +2064,71 @@ function App() {
 
       {currentView ===
         "digital-archive" &&
-        renderArchive(false)}
+        renderArchive(
+          false
+        )}
 
       {currentView ===
         "creative-archive" &&
-        renderArchive(true)}
+        renderArchive(
+          true
+        )}
 
       {/* FOOTER */}
-<footer className="footer">
-  <div className="footer-left">
-    <div className="footer-brand">
-      <span className="footer-brand-mark">R</span>
 
-      <div>
-        <strong>RAFI<span>.</span></strong>
-        <small>CREATIVE DEVELOPER</small>
-      </div>
-    </div>
-  </div>
+      <footer className="footer">
+        <div className="footer-left">
+          <div className="footer-brand">
+            <span className="footer-brand-mark">
+              R
+            </span>
 
-  <div className="footer-center">
-    <div className="footer-system">
-      <span className="footer-status-dot"></span>
-      SYSTEM ACTIVE
-    </div>
+            <div>
+              <strong>
+                RAFI<span>.</span>
+              </strong>
 
-    <div className="footer-line">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
+              <small>
+                CREATIVE DEVELOPER
+              </small>
+            </div>
+          </div>
+        </div>
 
-    <p>
-      © 2026 Rafi Maulana Darmawan
-    </p>
-  </div>
+        <div className="footer-center">
+          <div className="footer-system">
+            <span className="footer-status-dot" />
 
-  <button
-    className="footer-top"
-    onClick={goHome}
-  >
-    <span>BACK TO ORBIT</span>
-    <ArrowUpRight size={15} />
-  </button>
-</footer>
+            SYSTEM ACTIVE
+          </div>
+
+          <div className="footer-line">
+            <span />
+            <span />
+            <span />
+          </div>
+
+          <p>
+            © 2026 Rafi Maulana Darmawan
+          </p>
+        </div>
+
+        <button
+          className="footer-top"
+          onClick={
+            goHome
+          }
+          type="button"
+        >
+          <span>
+            BACK TO ORBIT
+          </span>
+
+          <ArrowUpRight
+            size={15}
+          />
+        </button>
+      </footer>
     </div>
   );
 }
