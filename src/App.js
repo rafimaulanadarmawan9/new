@@ -134,7 +134,7 @@ const digitalProjects = [
     category: "UI / UX",
     title: "Website Pemesanan Hotel",
     description:
-      "Perancangan dashboard yang berfokus pada hierarchy informasi, usability, navigasi, dan pengalaman pengguna.",
+      "Menggabungkan pemahaman alur sistem software dan desain antarmuka, saya merancang dashboard pemesanan hotel yang menonjolkan hierarki informasi yang rapi dan terstruktur. Melalui optimalisasi usability dan navigasi yang logis, antarmuka ini dirancang untuk memberikan pengalaman pengguna (UX) yang seamless tanpa mengorbankan performa sistem..",
     stack: ["Laravel", "UI/UX", "Dashboard"],
     image: "",
     link: "",
@@ -1482,11 +1482,15 @@ function App() {
                 </p>
 
                 <p className="education-description">
-                  Masih aktif berkuliah di UNIKOM
-                  sambil mengembangkan kemampuan
-                  dalam teknologi, software
-                  development, digital product,
-                  UI/UX, dan creative projects.
+                  Sebagai mahasiswa tingkat akhir di Universitas Komputer Indonesia (UNIKOM),
+                   saya terus mengembangkan kapasitas diri secara akademis maupun praktis. Melalui berbagai pengalaman berorganisasi, 
+                   saya telah mengasah soft skills krusial seperti kepemimpinan, komunikasi proaktif, dan kolaborasi tim. Keunggulan
+                   utama saya terletak pada pemahaman lintas disiplin keilmuan teknologi; 
+                   saya tidak hanya memperdalam hard skills pada software development dan UI/UX design, 
+                   tetapi juga memiliki pemahaman yang kuat terkait hardware komputer.
+                    Kombinasi kompetensi teknis dari hulu ke hilir serta kemampuan
+                    manajerial ini memampukan saya untuk merancang dan mengeksekusi creative projects 
+                    serta produk digital secara komprehensif.
                 </p>
               </div>
 
